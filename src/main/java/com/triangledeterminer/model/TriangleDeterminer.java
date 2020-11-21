@@ -2,6 +2,7 @@ package com.triangledeterminer.model;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+import org.springframework.beans.factory.annotation.Autowired;
 
 public class TriangleDeterminer implements ShapeDeterminer {
 	private static final Logger logger = LogManager.getLogger(TriangleDeterminer.class);
